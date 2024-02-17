@@ -344,3 +344,9 @@ ul{
     text-align: center;
     padding: 5px;
 }
+
+
+@media screen and (max-width: 768px) {
+    /* CSS styles for smaller screens */
+    
+}
