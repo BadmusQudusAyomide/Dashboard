@@ -1,0 +1,346 @@
+   /* * {
+       box-sizing: border-box
+   }
+
+   .mySlides1,
+   .mySlides2 {
+       display: none
+   }
+
+   img {
+       vertical-align: middle;
+   }
+
+   /* Slideshow container */
+   /* .slideshow-container {
+       max-width: 1000px;
+       position: relative;
+       margin: auto;
+   }
+
+   /* Next & previous buttons */
+   /* .prev,
+   .next {
+       cursor: pointer;
+       position: absolute;
+       top: 50%;
+       width: auto;
+       padding: 16px;
+       margin-top: -22px;
+       color: white;
+       font-weight: bold;
+       font-size: 18px;
+       transition: 0.6s ease;
+       border-radius: 0 3px 3px 0;
+       user-select: none;
+   }
+
+   /* Position the "next button" to the right */
+   /* .next {
+       right: 0;
+       border-radius: 3px 0 0 3px;
+   }
+
+   /* On hover, add a grey background color */
+   /* .prev:hover,
+   .next:hover {
+       background-color: #f1f1f1;
+       color: black; */
+   /* } */ */
+ */ */
+ */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.g{
+    width: 50px;
+    height: 40px;
+}
+
+.slide {
+    display: none;
+}
+
+
+.slide img {
+    max-width: 700px;
+    /* Ensure the image does not exceed the container width */
+    max-height: 300px;
+    /* Adjust the maximum height as needed */
+    width: auto;
+    /* Ensure the image maintains its aspect ratio */
+    margin-left: 250px;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.na{
+    background-color: #3C7773;
+    height: 60px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.profile{
+    background-color: beige;
+    height: 50px;
+    width:50px;
+    border-radius: 50px;
+}
+
+
+ul{
+    list-style: none;
+    display:flex;
+    margin-top: 5px;
+    
+}
+/* .home{
+    background-color: purple;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px ;
+    padding-bottom: 10px ;
+    padding-top: 10px;
+    border-radius: 2px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+.home:hover{
+    background-color: aqua;
+    color:black;
+}
+.home:active{
+    background-color:red;
+    color: black;
+    
+}
+
+
+.about{
+    background-color: purple;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px ;
+    padding-bottom: 10px ;
+    padding-top: 10px;
+    border-radius: 2px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+.about:hover{
+    background-color: aqua;
+    color:black;
+}
+.about:active{
+    background-color:red;
+    color: black;
+    
+}
+
+
+.order{
+    background-color: purple;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px ;
+    padding-bottom: 10px ;
+    padding-top: 10px;
+    border-radius: 2px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+.order:hover{
+    background-color: aqua;
+    color:black;
+}
+.order:active{
+    background-color:red;
+    color: black;
+    
+} */
+.home{
+    margin-left: 40%;
+    margin-top: 30px;
+    font-weight: bolder;
+        font-family: 'Courier New', Courier, monospace;
+
+
+}
+.about{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-weight: bolder;
+        font-family: 'Courier New', Courier, monospace;
+}
+.order{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contact{
+    background-color:antiquewhite;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px ;
+   
+    padding-top: 10px;
+    border-radius: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    
+    margin-left: 30%;
+    text-align: center;
+    
+}
+.contact:hover{
+    background-color: aqua;
+    color:black;
+}
+.contact:active{
+    background-color:red;
+    color: black;
+    
+}
+
+
+.ab{
+    background-color: yellow;
+    text-align: center;
+    padding-top: 150px ;
+   padding-bottom: 170px ;
+}
+.offer{
+    background-color: white;
+    width: 170px;
+}
+.of{
+    color: aqua;
+}
+
+.btn1{
+    background-color: aqua;
+    color: purple;
+    border: none;
+    border-radius: 3px;
+    padding-left: 150px;
+    padding-right: 150px ;
+    padding-bottom: 100px ;
+    padding-top: 100px;
+
+}
+.col{
+    display: flex;
+    width: fit-content;
+    margin-left: 20px;
+}
+/*
+.cont{
+    background-color: white;
+    width: 150px;
+    height: 170px;
+    
+}
+*/
+.cont1{
+    background-color: white;
+    width: 150px;
+    height: 170px;
+    border-radius: 3px;
+    border: 4px solid black;
+    
+}
+
+.more{
+    color: white;
+}
+
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* .movie-box {
+    width: 150px;
+   
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+} */
+
+.movie-box {
+    width: 150px;
+    /* Adjust the width of each movie box */
+    height: 250px;
+    /* Adjust the height of each movie box */
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background-color: white;
+}
+
+.movie-box:hover {
+    transform: scale(1.05);
+}
+
+.movie-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.movie-box .movie-title {
+    text-align: center;
+    padding: 5px;
+}
